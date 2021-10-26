@@ -11,25 +11,25 @@ class Calculator extends React.Component {
     return (
       <div className="wrapper">
         <p className="result">0</p>
-        <p className="key">AC</p>
-        <p className="key">+/-</p>
-        <p className="key">%</p>
-        <p className="key operation">/</p>
-        <p className="key">7</p>
-        <p className="key">8</p>
-        <p className="key">9</p>
-        <p className="key operation">x</p>
-        <p className="key">4</p>
-        <p className="key">5</p>
-        <p className="key">6</p>
-        <p className="key operation">-</p>
-        <p className="key">1</p>
-        <p className="key">2</p>
-        <p className="key">3</p>
-        <p className="key operation">+</p>
-        <p className="key zero">0</p>
-        <p className="key">.</p>
-        <p className="key operation">=</p>
+        <button type="button" className="key">AC</button>
+        <button type="button" className="key">+/-</button>
+        <button type="button" className="key">%</button>
+        <button type="button" className="key operation">/</button>
+        <button type="button" className="key">7</button>
+        <button type="button" className="key">8</button>
+        <button type="button" className="key">9</button>
+        <button type="button" className="key operation">x</button>
+        <button type="button" className="key">4</button>
+        <button type="button" className="key">5</button>
+        <button type="button" className="key">6</button>
+        <button type="button" className="key operation">-</button>
+        <button type="button" className="key">1</button>
+        <button type="button" className="key">2</button>
+        <button type="button" className="key">3</button>
+        <button type="button" className="key operation">+</button>
+        <button type="button" className="key zero">0</button>
+        <button type="button" className="key">.</button>
+        <button type="button" className="key operation">=</button>
       </div>
     );
   }
