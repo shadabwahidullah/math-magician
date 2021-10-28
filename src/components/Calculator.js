@@ -21,7 +21,11 @@ class Calculator extends React.Component {
     const { obj } = this.state;
     return (
       <div className="wrapper">
-        <p className="result">{obj.total}</p>
+        <p className="result">
+          {obj.next}
+          {obj.operation}
+          {obj.total}
+        </p>
         <button
           type="button"
           className="key"
