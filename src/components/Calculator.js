@@ -30,7 +30,7 @@ class Calculator extends React.Component {
         >
           AC
         </button>
-        <button type="button" className="key">
+        <button type="button" className="key" onClick={this.onClickListener}>
           +/-
         </button>
         <button type="button" className="key" onClick={this.onClickListener}>
