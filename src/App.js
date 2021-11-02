@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Header from './components/Header';
 import Home from './components/Home';
+import Quote from './components/Quote';
 
 function App() {
   return (
@@ -11,13 +12,17 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
+
           <Route path="/calculator">
             <Calculator />
+          </Route>
+
+          <Route path="/quote">
+            <Quote />
           </Route>
           <Route path="/">
             <Home />
           </Route>
-          <Route path="/quote" />
         </Switch>
       </div>
     </Router>
