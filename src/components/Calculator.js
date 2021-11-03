@@ -15,11 +15,13 @@ const Calculator = () => {
         <h2>Let&apos;s do some math!</h2>
       </div>
       <div className="wrapper col-md-6">
-        <p className="result">
-          {obj.total}
-          {obj.operation}
-          {obj.next}
-        </p>
+        <div className="result">
+          <p className="">
+            {obj.total}
+            {obj.operation}
+            {obj.next}
+          </p>
+        </div>
         <button
           type="button"
           className="key"

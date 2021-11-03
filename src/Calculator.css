@@ -1,6 +1,5 @@
 .wrapper {
   display: grid;
-  height: 70px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1.6fr repeat(5, 1fr);
   row-gap: 1px;
@@ -10,6 +9,7 @@
 
 .result {
   background-color: rgb(62, 76, 88);
+  height: 70px;
   color: white;
   grid-column: span 4;
   text-align: end;
@@ -31,8 +31,4 @@
 
 .operation {
   background-color: orange;
-}
-
-.quote {
-  height: 70vh;
 }
