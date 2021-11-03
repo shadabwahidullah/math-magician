@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Header = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
     <div className="d-flex col-12 justify-content-between">
-      <Link to="/" className="navbar-brand">
+      <Link to="/" className="navbar-brand fs-1 fw-bold">
         Math Magicians
       </Link>
       <button
