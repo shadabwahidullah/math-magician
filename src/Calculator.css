@@ -1,7 +1,6 @@
 .wrapper {
-  margin: 0 auto;
-  width: 50vw;
   display: grid;
+  height: 70px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1.6fr repeat(5, 1fr);
   row-gap: 1px;
@@ -14,7 +13,6 @@
   color: white;
   grid-column: span 4;
   text-align: end;
-  height: 40px;
   font-size: 30px;
   padding: 10px;
   margin: 0;
