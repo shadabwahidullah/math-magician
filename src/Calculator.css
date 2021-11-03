@@ -1,6 +1,4 @@
 .wrapper {
-  margin: 0 auto;
-  width: 50vw;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1.6fr repeat(5, 1fr);
@@ -11,10 +9,10 @@
 
 .result {
   background-color: rgb(62, 76, 88);
+  height: 70px;
   color: white;
   grid-column: span 4;
   text-align: end;
-  height: 40px;
   font-size: 30px;
   padding: 10px;
   margin: 0;
