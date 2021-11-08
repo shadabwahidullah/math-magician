@@ -2,9 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Live demos:
 
-In the project directory, you can run:
+Netlify link: [here](https://reverent-hypatia-1c4adf.netlify.app/)
+
+Heroku link: [here](https://math-magician-me.herokuapp.com/)
+
 
 ## Built With
 
